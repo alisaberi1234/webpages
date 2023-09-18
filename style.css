@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header {
+    background-color: #0091FF;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 175px;
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+}
+
+.info {
+    margin-top: 20px;
+    margin-left: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+}
+
+.footer {
+    background-color: #004DD8;
+    text-align: center;
+    color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.look {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 1em rgba(0,0,0,.2);
+    width: 90%;
+    height: 375px;
+    float: left;
+}
+
+.look .content-title {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.look .border-box {
+    border: 2px solid black;
+}
+
+.look .content-text-img img {
+    margin-top: 10px;
+    margin-left: 10px;
+    border: 3px solid black;
+    float: left;
+}
+
+.look .content-text-img p {
+    margin-top: 15px;
+    margin-left: 15px;
+    float: left;
+}
+
+.scroll-text {
+    background-color: #03235e;
+    color: white;
+}
+
+.accont {
+    margin: 0;
+}
+
+.accont ul li {
+    background: #03235e;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.accont ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.accont ul li a:hover {
+    text-decoration: underline;
+}
+
+.accont ul li:hover {
+    position: relative;
+    top: 1px;
+}

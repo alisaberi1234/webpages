@@ -1,0 +1,3 @@
+header: #0091FF
+footer: #004DD8
+scroll text: #03235e
